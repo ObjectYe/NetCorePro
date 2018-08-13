@@ -1,0 +1,35 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="HtmlAgilityPack" Version="1.8.4" />
+    <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.8" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.0.3" />
+    <PackageReference Include="System.Text.Encoding.CodePages" Version="4.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="2.0.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\css\default.css" />
+    <None Include="wwwroot\css\default_dev.css" />
+    <None Include="wwwroot\js\functions.js" />
+    <None Include="wwwroot\js\functions_dev.js" />
+    <None Include="wwwroot\js\garden.js" />
+    <None Include="wwwroot\js\garden_dev.js" />
+    <None Include="wwwroot\js\jquery.js" />
+    <None Include="wwwroot\lib\digital-7_mono.ttf" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="css\" />
+    <Folder Include="download\" />
+    <Folder Include="js\" />
+  </ItemGroup>
+
+</Project>

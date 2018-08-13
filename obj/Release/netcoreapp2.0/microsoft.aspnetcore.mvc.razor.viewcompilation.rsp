@@ -1,0 +1,13 @@
+D:\maple\个人信息\project\WebCore_pc\WebCore_pc
+--output-path=obj\release\netcoreapp2.0\
+--application-name=WebCore_pc
+--content-root=D:\maple\个人信息\project\WebCore_pc\WebCore_pc
+--file=D:\maple\个人信息\project\WebCore_pc\WebCore_pc\Views\Default\Index.cshtml
+--file=D:\maple\个人信息\project\WebCore_pc\WebCore_pc\Views\Home\About.cshtml
+--file=D:\maple\个人信息\project\WebCore_pc\WebCore_pc\Views\Home\Contact.cshtml
+--file=D:\maple\个人信息\project\WebCore_pc\WebCore_pc\Views\Home\Index.cshtml
+--file=D:\maple\个人信息\project\WebCore_pc\WebCore_pc\Views\Shared\Error.cshtml
+--file=D:\maple\个人信息\project\WebCore_pc\WebCore_pc\Views\Shared\_Layout.cshtml
+--file=D:\maple\个人信息\project\WebCore_pc\WebCore_pc\Views\Shared\_ValidationScriptsPartial.cshtml
+--file=D:\maple\个人信息\project\WebCore_pc\WebCore_pc\Views\_ViewImports.cshtml
+--file=D:\maple\个人信息\project\WebCore_pc\WebCore_pc\Views\_ViewStart.cshtml
