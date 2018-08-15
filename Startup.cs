@@ -44,7 +44,7 @@ namespace WebCore_pc
             {
                 routes.MapRoute(
                     name: "default",
-                    template: "{controller=Default}/{action=Index}/{id?}");
+                    template: "{controller=Default}/{action=PlaneGame}/{id?}");
             });
 
             //添加下面的代码

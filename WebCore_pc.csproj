@@ -5,6 +5,21 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="css\**" />
+    <Compile Remove="download\**" />
+    <Compile Remove="js\**" />
+    <Content Remove="css\**" />
+    <Content Remove="download\**" />
+    <Content Remove="js\**" />
+    <EmbeddedResource Remove="css\**" />
+    <EmbeddedResource Remove="download\**" />
+    <EmbeddedResource Remove="js\**" />
+    <None Remove="css\**" />
+    <None Remove="download\**" />
+    <None Remove="js\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="HtmlAgilityPack" Version="1.8.4" />
     <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.8" />
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.0.3" />
@@ -18,18 +33,13 @@
   <ItemGroup>
     <None Include="wwwroot\css\default.css" />
     <None Include="wwwroot\css\default_dev.css" />
+    <None Include="wwwroot\fonts\codropsicons\codropsicons.svg" />
     <None Include="wwwroot\js\functions.js" />
     <None Include="wwwroot\js\functions_dev.js" />
     <None Include="wwwroot\js\garden.js" />
     <None Include="wwwroot\js\garden_dev.js" />
     <None Include="wwwroot\js\jquery.js" />
     <None Include="wwwroot\lib\digital-7_mono.ttf" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="css\" />
-    <Folder Include="download\" />
-    <Folder Include="js\" />
   </ItemGroup>
 
 </Project>

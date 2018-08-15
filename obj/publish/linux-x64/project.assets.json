@@ -19584,11 +19584,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\maple\\个人信息\\project\\WebCore_pc\\WebCore_pc\\WebCore_pc.csproj",
+      "projectUniqueName": "D:\\maple\\个人信息\\project\\Git\\NetCorePro\\WebCore_pc.csproj",
       "projectName": "WebCore_pc",
-      "projectPath": "D:\\maple\\个人信息\\project\\WebCore_pc\\WebCore_pc\\WebCore_pc.csproj",
+      "projectPath": "D:\\maple\\个人信息\\project\\Git\\NetCorePro\\WebCore_pc.csproj",
       "packagesPath": "C:\\Users\\Adminstrator\\.nuget\\packages\\",
-      "outputPath": "D:\\maple\\个人信息\\project\\WebCore_pc\\WebCore_pc\\obj\\publish\\linux-x64\\",
+      "outputPath": "D:\\maple\\个人信息\\project\\Git\\NetCorePro\\obj\\publish\\linux-x64\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

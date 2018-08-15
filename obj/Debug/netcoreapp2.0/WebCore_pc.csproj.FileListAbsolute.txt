@@ -20,3 +20,14 @@ D:\个人信息\WebCore_pc\WebCore_pc\obj\Debug\netcoreapp2.0\WebCore_pc.Assembl
 D:\个人信息\WebCore_pc\WebCore_pc\obj\Debug\netcoreapp2.0\WebCore_pc.AssemblyInfo.cs
 D:\个人信息\WebCore_pc\WebCore_pc\obj\Debug\netcoreapp2.0\WebCore_pc.dll
 D:\个人信息\WebCore_pc\WebCore_pc\obj\Debug\netcoreapp2.0\WebCore_pc.pdb
+D:\maple\个人信息\project\Git\NetCorePro\bin\Debug\netcoreapp2.0\WebCore_pc.deps.json
+D:\maple\个人信息\project\Git\NetCorePro\bin\Debug\netcoreapp2.0\WebCore_pc.runtimeconfig.json
+D:\maple\个人信息\project\Git\NetCorePro\bin\Debug\netcoreapp2.0\WebCore_pc.runtimeconfig.dev.json
+D:\maple\个人信息\project\Git\NetCorePro\bin\Debug\netcoreapp2.0\WebCore_pc.dll
+D:\maple\个人信息\project\Git\NetCorePro\bin\Debug\netcoreapp2.0\WebCore_pc.pdb
+D:\maple\个人信息\project\Git\NetCorePro\obj\Debug\netcoreapp2.0\WebCore_pc.csprojAssemblyReference.cache
+D:\maple\个人信息\project\Git\NetCorePro\obj\Debug\netcoreapp2.0\WebCore_pc.csproj.CoreCompileInputs.cache
+D:\maple\个人信息\project\Git\NetCorePro\obj\Debug\netcoreapp2.0\WebCore_pc.AssemblyInfoInputs.cache
+D:\maple\个人信息\project\Git\NetCorePro\obj\Debug\netcoreapp2.0\WebCore_pc.AssemblyInfo.cs
+D:\maple\个人信息\project\Git\NetCorePro\obj\Debug\netcoreapp2.0\WebCore_pc.dll
+D:\maple\个人信息\project\Git\NetCorePro\obj\Debug\netcoreapp2.0\WebCore_pc.pdb

@@ -24,9 +24,8 @@ namespace WebCore_pc.Controllers
             SearchHtml();
             return Json(new { f = false, mes = "" });
         }
-
-
-        #region code_function
+         
+        #region code_function 爬虫
 
         public static bool SearchHtml()
         {
@@ -41,7 +40,7 @@ namespace WebCore_pc.Controllers
             for (int i = 1; i<= 400; i++)
             { 
                 string add = "";
-                wc.BaseAddress = "http://www.fushu365.com/book/xddm/";
+                wc.BaseAddress = "";
                 wc.Encoding = System.Text.Encoding.GetEncoding("GB2312");
                 if (i == 1)
                 {
@@ -213,6 +212,13 @@ namespace WebCore_pc.Controllers
             return "YhisIsvoid";
         }
 
+        #endregion
+
+        #region plane_game
+
+        public ActionResult PlaneGame() {
+            return View();
+        }
         #endregion
     }
 }

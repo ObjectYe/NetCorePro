@@ -13336,11 +13336,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\个人信息\\WebCore_pc\\WebCore_pc\\WebCore_pc.csproj",
+      "projectUniqueName": "D:\\maple\\个人信息\\project\\Git\\NetCorePro\\WebCore_pc.csproj",
       "projectName": "WebCore_pc",
-      "projectPath": "D:\\个人信息\\WebCore_pc\\WebCore_pc\\WebCore_pc.csproj",
+      "projectPath": "D:\\maple\\个人信息\\project\\Git\\NetCorePro\\WebCore_pc.csproj",
       "packagesPath": "C:\\Users\\Adminstrator\\.nuget\\packages\\",
-      "outputPath": "D:\\个人信息\\WebCore_pc\\WebCore_pc\\obj\\",
+      "outputPath": "D:\\maple\\个人信息\\project\\Git\\NetCorePro\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
