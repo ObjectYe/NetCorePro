@@ -29,13 +29,16 @@ namespace WebCore_pc.Controllers
 
         public static bool SearchHtml()
         {
+
+           
+
             Encoding.RegisterProvider(CodePagesEncodingProvider.Instance);
             string url = string.Empty;
             //IRequestSizePolicy requestSize;
 
             //注册gb2312 
 
-            //反射
+            //
             WebClient wc = new WebClient();
             for (int i = 1; i<= 400; i++)
             { 
@@ -209,6 +212,7 @@ namespace WebCore_pc.Controllers
       
         public static string search()
         {
+            
             return "YhisIsvoid";
         }
 
