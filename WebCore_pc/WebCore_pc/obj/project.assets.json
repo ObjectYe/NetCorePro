@@ -4333,6 +4333,16 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XPath.XDocument.dll": {}
         }
+      },
+      "Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.1",
+        "compile": {
+          "bin/placeholder/Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Models.dll": {}
+        }
       }
     }
   },
@@ -11497,12 +11507,18 @@
         "system.xml.xpath.xdocument.4.3.0.nupkg.sha512",
         "system.xml.xpath.xdocument.nuspec"
       ]
+    },
+    "Models/1.0.0": {
+      "type": "project",
+      "path": "../Models/Models.csproj",
+      "msbuildProject": "../Models/Models.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.1": [
       "Microsoft.AspNetCore.App >= 2.1.0",
-      "Microsoft.NETCore.App >= 2.1.0"
+      "Microsoft.NETCore.App >= 2.1.0",
+      "Models >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -11512,11 +11528,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\maple\\个人信息\\project\\Git\\NetCorePro\\WebCore_pc\\WebCore_pc\\WebCore_pc.csproj",
+      "projectUniqueName": "D:\\maple\\个人信息\\project\\git\\NetCorePro\\WebCore_pc\\WebCore_pc\\WebCore_pc.csproj",
       "projectName": "WebCore_pc",
-      "projectPath": "D:\\maple\\个人信息\\project\\Git\\NetCorePro\\WebCore_pc\\WebCore_pc\\WebCore_pc.csproj",
+      "projectPath": "D:\\maple\\个人信息\\project\\git\\NetCorePro\\WebCore_pc\\WebCore_pc\\WebCore_pc.csproj",
       "packagesPath": "C:\\Users\\Adminstrator\\.nuget\\packages\\",
-      "outputPath": "D:\\maple\\个人信息\\project\\Git\\NetCorePro\\WebCore_pc\\WebCore_pc\\obj\\",
+      "outputPath": "D:\\maple\\个人信息\\project\\git\\NetCorePro\\WebCore_pc\\WebCore_pc\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -11534,7 +11550,11 @@
       },
       "frameworks": {
         "netcoreapp2.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\maple\\个人信息\\project\\git\\NetCorePro\\WebCore_pc\\Models\\Models.csproj": {
+              "projectPath": "D:\\maple\\个人信息\\project\\git\\NetCorePro\\WebCore_pc\\Models\\Models.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

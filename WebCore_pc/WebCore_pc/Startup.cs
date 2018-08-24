@@ -10,6 +10,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
+using WebCore_pc.core;
 
 namespace WebCore_pc
 {
@@ -26,6 +27,22 @@ namespace WebCore_pc
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
+
+
+            //注入核心服务 加载signalcores
+            services.AddCors(options => {
+
+                options.AddPolicy("SignalRCores",
+                        policy => policy.AllowAnyOrigin()
+                                      .AllowAnyHeader()
+                                      .AllowAnyMethod()
+                                      .AllowCredentials());
+
+            });
+            services.AddSignalR();
+            
+
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -39,6 +56,17 @@ namespace WebCore_pc
             {
                 app.UseHsts();
             }
+             
+
+            app.UseCors("SignalRCores");
+
+            app.UseSignalR(routes =>
+            {
+
+                //通过 api/chathub 调用监听方法
+                routes.MapHub<ChatHub>("/chathub");
+
+            });
 
             app.UseHttpsRedirection();
             app.UseMvc();
