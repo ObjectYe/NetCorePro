@@ -1,19 +1,19 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.27703.2035
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29025.244
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebCore_pc", "WebCore_pc\WebCore_pc.csproj", "{6AF4950F-5A2C-4ABA-A571-1B52B9E4646F}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Models", "Models\Models.csproj", "{1C6E4114-4A1E-4E80-A2AC-D99B87F8FD1E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IReposity", "IReposity\IReposity.csproj", "{0A3A9726-4159-4967-B0D6-CC3D146FBF85}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IDao", "IReposity\IDao.csproj", "{0A3A9726-4159-4967-B0D6-CC3D146FBF85}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reposity", "Reposity\Reposity.csproj", "{0629682C-EDA4-4F9B-AFAF-BE21F94142A0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dao", "Reposity\Dao.csproj", "{0629682C-EDA4-4F9B-AFAF-BE21F94142A0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IServices", "IServices\IServices.csproj", "{89539493-5854-4121-A33A-0F41B9358AB4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IServices", "IServices\IServices.csproj", "{89539493-5854-4121-A33A-0F41B9358AB4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services", "Services\Services.csproj", "{7D995FF5-A536-4351-8878-90AD43E9FA31}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Services", "Services\Services.csproj", "{7D995FF5-A536-4351-8878-90AD43E9FA31}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

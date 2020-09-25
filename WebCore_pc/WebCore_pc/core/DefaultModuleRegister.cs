@@ -18,9 +18,9 @@ namespace WebCore_pc.core
            
             //注册所有"MyApp.Repository"程序集中的类
 
-            builder.RegisterAssemblyTypes(GetAssembly("IReposity")).AsImplementedInterfaces();
+            builder.RegisterAssemblyTypes(GetAssembly("IDao")).AsImplementedInterfaces();
             builder.RegisterAssemblyTypes(GetAssembly("IServices")).AsImplementedInterfaces();
-            builder.RegisterAssemblyTypes(GetAssembly("Reposity")).AsImplementedInterfaces();
+            builder.RegisterAssemblyTypes(GetAssembly("Daos")).AsImplementedInterfaces();
             builder.RegisterAssemblyTypes(GetAssembly("Services")).AsImplementedInterfaces();
 
 
